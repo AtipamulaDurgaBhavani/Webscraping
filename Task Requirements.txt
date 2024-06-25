@@ -1,0 +1,10 @@
+Task requirements:
+python 
+IDE ( visual studio code)
+modules:
+* pandas -> pip install pandas
+* selenium -> pip install selenium
+* BeautifulSoup --> pip install beautifulsoup4
+* time-> built-in module
+
+Web Driver -> ChromeDriver 
