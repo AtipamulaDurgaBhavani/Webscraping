@@ -142,7 +142,7 @@ try:
 finally:
     driver.quit()
 
-# Check if all lists have the same length
+
 lengths = [
     len(ids), len(titles), len(descriptions), len(images), len(prices),
      len(ratings), len(sizes_list), len(brands), len(genders),
@@ -172,5 +172,4 @@ if len(set(lengths)) == 1:
     df.to_csv('scraped_data.csv', index=False)
 
     print("Data saved to scraped_data.csv")
-else:
-    print("Error: Lengths of data lists are not consistent.")
+
